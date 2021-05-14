@@ -2,7 +2,7 @@
 
 Simple New Tab page extension with light and dark themes.
 
-![screenshot](https://raw.githubusercontent.com/chergav/new-tab-page/master/docs/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/chergav/new-tab-page/master/docs/screenshot.jpg)
 
 ## Install extension
 
