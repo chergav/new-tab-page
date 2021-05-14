@@ -1,0 +1,64 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<symbol id="str_1" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<circle cx="8" cy="8" r="6"/>
+		<rect x="16" y="6" width="46" height="4" rx="1" />
+	</symbol>
+	<symbol id="str_2" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<circle cx="8" cy="8" r="6"/>
+		<rect x="16" y="3" width="46" height="4" rx="1" />
+		<rect x="16" y="9" width="46" height="4" rx="1" />
+	</symbol>
+	<symbol id="col_1" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<path d="
+			M28 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			"/>
+	</symbol>
+	<symbol id="col_2" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<path d="
+			M23 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M33 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			"/>
+	</symbol>
+	<symbol id="col_3" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<path d="
+			M18 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M28 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M38 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			"/>
+	</symbol>
+	<symbol id="col_4" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<path d="
+			M13 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M23 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M33 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M43 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			"/>
+	</symbol>
+	<symbol id="col_5" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<path d="
+			M8 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M18 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M28 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M38 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M48 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			"/>
+	</symbol>
+	<symbol id="col_6" viewBox="0 0 64 16">
+		<path d="M0 0h64v16H0V0z" fill="none"/>
+		<path d="
+			M3 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M13 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M23 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M33 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M43 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			M53 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5zm0 3h8v1.5h-8v-1.5z
+			"/>
+	</symbol>
+</svg>

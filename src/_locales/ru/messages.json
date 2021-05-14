@@ -1,0 +1,41 @@
+{
+	"description": {
+		"message": "Крутая новая вкладка для хромого",
+		"description": "(это комент для переводчика)"
+	},
+	"new_tab": {"message": "Новая вкладка"},
+	"settings":{"message": "Настройки"},
+	"layout":{"message": "Макет"},
+	"my_links":{"message": " Мои ярлыки"},
+	"themes":{"message": "Темы"},
+	"google_links":{"message": "Выберите предустановленные ссылки"},
+
+	"add_anchor":{"message": "Добавить ярлык"},
+	"my_anchors":{"message": "Мои ярлыки"},
+	"google":{"message": "Google"},
+	"top_sistes":{"message": "Топ сайтов"},
+	"show_top_sistes":{"message": "Показать топ сайтов"},
+	"dark":{"message": "Темная"},
+	"light":{"message": "Светлая"},
+	"lines":{"message": "Строки"},
+	"columns":{"message": "Колонки"},
+
+	"add_title":{"message": "Имя"},
+	"add":{"message": "Добавить"},
+	"edit":{"message": "Редактировать"},
+	"delete":{"message": "Удалить"},
+	"delete_link":{"message": "Удалить ссылку?"},
+
+	"search":{"message": "Поиск"},
+	"translate":{"message": "Переводчик"},
+	"drive":{"message": "Диск"},
+	"maps":{"message": "Карты"},
+	"mail":{"message": "Почта"},
+	"calendar":{"message": "Календарь"},
+	"photos":{"message": "Фото"},
+	"contacts":{"message": "Контакты"},
+	"account":{"message": "Аккаунт"},
+	"earth":{"message": "Планета Земля"},
+	"news":{"message": "Новости"},
+	"docs":{"message": "Документы"}
+}

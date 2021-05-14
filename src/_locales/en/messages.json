@@ -1,0 +1,41 @@
+{
+	"description": {
+		"message": "Cool new tab page",
+		"description": "(это комент для переводчика)"
+	},
+	"new_tab": {"message": "New tab"},
+	"settings":{"message": "Settings"},
+	"layout":{"message": "Layout"},
+	"my_links":{"message": "My shortcuts"},
+	"themes":{"message": "Themes"},
+	"google_links":{"message": "Choose preset links"},
+
+	"add_anchor":{"message": "Add shortcut"},
+	"my_anchors":{"message": "My anchors"},
+	"google":{"message": "Google"},
+	"top_sistes":{"message": "Top sites"},
+	"show_top_sistes":{"message": "Show top sistes"},
+	"dark":{"message": "Dark"},
+	"light":{"message": "Light"},
+	"lines":{"message": "Lines"},
+	"columns":{"message": "Columns"},
+
+	"add_title":{"message": "Name"},
+	"add":{"message": "Add"},
+	"edit":{"message": "Edit"},
+	"delete":{"message": "Delete"},
+	"delete_link":{"message": "Delete link?"},
+
+	"search":{"message": "Search"},
+	"translate":{"message": "Translate"},
+	"drive":{"message": "Drive"},
+	"maps":{"message": "Maps"},
+	"mail":{"message": "Mail"},
+	"calendar":{"message": "Calendar"},
+	"photos":{"message": "Photos"},
+	"contacts":{"message": "Contacts"},
+	"account":{"message": "Account"},
+	"earth":{"message": "Planet Earth"},
+	"news":{"message": "News"},
+	"docs":{"message": "Documents"}
+}
