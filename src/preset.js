@@ -23,7 +23,7 @@ export class Preset {
 
 	static themes = [
 		'dark', 'Github', 'Telegram', 'Onedark', 'Stackoverflow', 'Google',
-		'light',
+		'Firefox','light',
 	];
 
 	static columns = [1, 2, 3, 4, 5, 6];

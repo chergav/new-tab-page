@@ -38,6 +38,11 @@
 	--lightness: 100%;
 	--accent: #8ab4f8;
 }
+.Firefox{
+	--back-prm: rgb(28,27,34);
+	--lightness: 100%;
+	--accent: rgb(0,221,255);
+}
 .light{
 	--back-prm: #ededed;
 	--lightness: 0%;
