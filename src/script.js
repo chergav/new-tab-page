@@ -1,7 +1,8 @@
+import { Preset } from './preset.js';
 import { Storage } from './storage.js';
 import { Template } from './template.js';
 import { settings } from './settings.js';
-import { Preset } from './preset.js';
+import './tabs.js';
 
 (async () => {
 	const storage = new Storage();
@@ -18,7 +19,7 @@ import { Preset } from './preset.js';
 	const modal_overlay = document.querySelector('#modal_overlay');
 	
 	const openCloseSettings = () => modal_overlay.classList.toggle('open');
-
+	
 	document.querySelector('#close_settings').addEventListener('click', () => 
 		openCloseSettings()
 	);
@@ -144,7 +145,7 @@ import { Preset } from './preset.js';
 		setting_themes.innerHTML = template.themes();
 		setting_google.innerHTML = template.google();
 	});
-
+	
 	function init(data) {
 		settings.setCurrent(data);
 		setAppearance();
