@@ -6,7 +6,7 @@ export class Storage {
 		my_links: [],
 		theme: 'Google',
 		top_sites: true,
-		columns: 2,
+		columns: 3,
 		line: 2
 	};
 	

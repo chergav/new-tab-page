@@ -1,5 +1,5 @@
 export class Preset {
-	static i18n = (message) => chrome.i18n.getMessage(message);
+	static i18n = message => chrome.i18n.getMessage(message);
 
 	static links = [
 		{ url: 'https://google.com', title: this.i18n('search') },
@@ -22,8 +22,7 @@ export class Preset {
 	];
 
 	static themes = [
-		'dark', 'Github', 'Telegram', 'Onedark', 'Stackoverflow', 'Google',
-		'Firefox','light',
+		'dark', 'Github', 'Telegram', 'Onedark', 'Stackoverflow', 'Google', 'Firefox', 'light'
 	];
 
 	static columns = [1, 2, 3, 4, 5, 6];
