@@ -11,7 +11,7 @@ export class Preset {
 		{ url: 'https://photos.google.com', title: this.i18n('photos') },
 		{ url: 'https://contacts.google.com', title: this.i18n('contacts') },
 		{ url: 'https://www.youtube.com', title: 'YouTube' },
-		{ url: 'https://music.youtube.com', title: 'YouTube Music' },
+		{ url: 'https://music.youtube.com', title: 'YT Music' },
 		{ url: 'https://myaccount.google.com', title: this.i18n('account') },
 		{ url: 'https://play.google.com', title: 'Play' },
 		{ url: 'https://earth.google.com/web', title: this.i18n('earth') },

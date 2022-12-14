@@ -9,4 +9,4 @@ Simple New Tab page extension with light and dark themes.
 * Clone https://github.com/chergav/new-tab-page
 * Open extensions tab: chrome://extensions/
 * Enable developer mode toggle on the top-right corner
-* Click Load unpacked on the top-left corner and select SRC folder from the repo
+* Click Load unpacked on the top-left corner and select **new-tab-page** folder from the repo

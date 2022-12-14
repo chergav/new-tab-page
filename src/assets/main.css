@@ -63,14 +63,13 @@
 	background: var(--back-sec); 
 }
 @font-face {
-	font-family: Roboto;
-	src: local('Roboto'), local('Roboto Regular'),
-		url("/assets/roboto.woff2") format("woff2");
+	font-family: Roboto-12;
+	src: local('Roboto'), local('Roboto Regular'), url("./roboto.woff2") format("woff2");
 }
 body{
 	display: grid;
 	place-content: center;
-	font-family: Roboto, sans-serif;
+	font-family: Roboto-12, sans-serif;
 	font-size: 1rem;
 	color: var(--font-prm);
 	min-height: 100vh;

@@ -4,11 +4,17 @@ import { Preset } from './preset.js';
 export class Template {
 	_i18n = message => Preset.i18n(message);
 	_createOutput = (tpl, arr) => arr.reduce((a, v, i) => a += tpl(v, i), '');
+	#faviconURL = host => {
+		const url = new URL(chrome.runtime.getURL("/_favicon/"));
+		url.searchParams.set('pageUrl', host); // this encodes the URL as well
+		url.searchParams.set('size', '24');
+		return url.toString();
+	};
 
 	_tplLink = (link, _) => `
 		<a href="${link.url}" class="link" title="${link.title}&#13;${link.url}">
 			<div class="favicon">
-				<img src="https://www.google.com/s2/favicons?sz=32&domain_url=${link.url}" width="24" alt="">
+				<img src="${this.#faviconURL(link.url)}" alt="">
 			</div>
 			<div class="text">
 				<p class="text-prm">${link.title}</p>
@@ -17,7 +23,10 @@ export class Template {
 					}
 			</div>
 		</a>
-	`;//<img src="chrome://favicon/size/24@1x/${link.url}" alt>
+	`;
+	// chrome://favicon2/?size=24&scaleFactor=1x&showFallbackMonogram=&pageUrl=https%3A%2F%2Fmusic.youtube.com%2F
+	//<img src="https://www.google.com/s2/favicons?sz=32&domain_url=${link.url}" width="24" alt="">
+	//<img src="chrome://favicon/size/24@1x/${link.url}" alt>
 	//chrome-extension://ecipkjlcbejnmfgammkacfpbepegohnf/_favicon/?pageUrl=https://google.com&size=24
 	//https://www.google.com/s2/favicons?sz=32&domain_url=${link.url}
 	_tplMyLinkAdd = () => `

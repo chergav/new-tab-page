@@ -152,7 +152,6 @@ import './tabs.js';
 		createMyLinks();
 		createGoogleLinks();
 		createTopLinks();
-		chrome.cookies.set({ url: 'https://www.google.com/', sameSite: 'strict', name: '_' });
 	}
 
 	init(await storage.getSettings());
