@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"license": "ISC",
 	"devDependencies": {
-		"vite": "^4.0.1"
+		"vite": "^6.4.5"
 	},
 	"scripts": {
 		"dev": "vite",
